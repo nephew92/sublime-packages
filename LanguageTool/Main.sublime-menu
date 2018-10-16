@@ -1,0 +1,109 @@
+[
+    {
+        "mnemonic": "n",
+        "caption": "Preferences",
+        "id": "preferences",
+        "children": [
+            {
+                "mnemonic": "P",
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "LanguageTool",
+                        "children": [
+                            {
+                                "caption": "Settings – Default",
+                                "args": {
+                                    "file": "${packages}/LanguageTool/LanguageTool.sublime-settings"
+                                },
+                                "command": "open_file"
+                            },
+                            {
+                                "caption": "Settings – User",
+                                "args": {
+                                    "file": "${packages}/User/LanguageToolUser.sublime-settings"
+                                },
+                                "command": "open_file"
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Key Bidings – User",
+                                "args": {
+                                    "file": "${packages}/LanguageTool/Default (Linux).sublime-keymap"
+                                },
+                                "command": "open_file"
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "All Commands",
+                                "args": {
+                                    "file": "${packages}/LanguageTool/LanguageTool.sublime-commands"
+                                },
+                                "command": "open_file"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "goto_next_language_problem", 
+                                "args": {
+                                    "jumpForward": true
+                                }, 
+                                "caption": "Goto next language problem"
+                            }, 
+                            {
+                                "command": "goto_next_language_problem", 
+                                "args": {
+                                    "jumpForward": false
+                                }, 
+                                "caption": "Goto next language problem"
+                            }, 
+                            {
+                                "command": "mark_language_problem_solved", 
+                                "args": {
+                                    "applyFix": true
+                                }, 
+                                "caption": "Mark language problem solved"
+                            }, 
+                            {
+                                "command": "mark_language_problem_solved", 
+                                "args": {
+                                    "applyFix": false
+                                }, 
+                                "caption": "Mark language problem solved"
+                            }, 
+                            {
+                                "command": "deactivate_rule", 
+                                "caption": "Deactivate rule"
+                            }, 
+                            {
+                                "command": "activate_rule", 
+                                "caption": "Activate rule"
+                            }, 
+                            {
+                                "command": "language_tool", 
+                                "args": {
+                                    "forceServer": "local"
+                                }, 
+                                "caption": "Language tool"
+                            }, 
+                            {
+                                "command": "start_language_tool_server", 
+                                "caption": "Start language tool server"
+                            }, 
+                            {
+                                "command": "change_language_tool_language", 
+                                "caption": "Change language tool language"
+                            }, 
+                            {
+                                "command": "clear_language_problems", 
+                                "caption": "Clear language problems"
+                            }
+
+
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

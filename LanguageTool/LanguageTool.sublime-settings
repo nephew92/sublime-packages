@@ -1,0 +1,15 @@
+{
+    "languagetool_server_remote": "https://languagetool.org/api/v2/check",
+    "languagetool_server_local": "http://localhost:8081/v2/check",
+    "language_tool_language": "pt-BR",
+    "default_server": "local",
+    "display_mode": "panel",
+    "languagetool_jar": "/home/francisco/opt/LanguageTool-4.1/languagetool.jar",
+    "highlight-scope": "comment",
+    "ignored-scopes": [
+        "support.function.*.latex",
+        "meta.*.latex",
+        "comment.*.tex",
+        "keyword.control.tex"
+    ]
+}

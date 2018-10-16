@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Google Spell Check",
+		"LanguageTool",
+		"LaTeX-cwl",
+		"LaTeXTools",
+		"MarkdownLivePreview",
+		"Package Control"
+	],
+	"repositories":
+	[
+	]
+}

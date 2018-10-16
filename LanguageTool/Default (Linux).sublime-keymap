@@ -1,0 +1,17 @@
+[
+    { "keys": ["ctrl+shift+6"], "command": "goto_next_language_problem", "args": { "jumpForward": true } },
+    { "keys": ["ctrl+shift+4"], "command": "goto_next_language_problem", "args": { "jumpForward": false } },
+
+    { "keys": ["ctrl+shift+2"], "command": "mark_language_problem_solved", "args": { "applyFix": true } },
+    { "keys": ["ctrl+shift+8"], "command": "mark_language_problem_solved", "args": { "applyFix": false } },
+
+    { "keys": ["ctrl+shift+9"], "command": "deactivate_rule" },
+    { "keys": ["ctrl+shift+3"], "command": "activate_rule" },
+
+    { "keys": ["ctrl+shift+1"], "command": "language_tool", "args": {"forceServer": "local"}},
+    { "keys": ["ctrl+shift+7"], "command": "start_language_tool_server" },
+    
+    { "keys": ["ctrl+shift+5"], "command": "change_language_tool_language" },
+
+    { "keys": ["ctrl+shift+0"], "command": "clear_language_problems" }
+]

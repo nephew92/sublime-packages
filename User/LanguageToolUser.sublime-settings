@@ -1,0 +1,13 @@
+{
+	"ignored":
+	[
+		{
+			"description": "Para melhorar o texto, procure variar mais os termos utilizados.",
+			"id": "REPEATED_WORDS"
+		},
+		{
+			"description": "Prefira o símbolo de multiplicação.",
+			"id": "MULTIPLICATION_SIGN"
+		}
+	]
+}
